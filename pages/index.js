@@ -23,21 +23,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main style={{ padding: "2rem", fontFamily: "Arial" }}>
-        <h1>🏡 Welcome to HarborView Strata Management</h1>
-        <p>This website is for all residents of HarborView Apartments.</p>
+      <main
+        style={{
+          padding: "2rem",
+          fontFamily: "Segoe UI, Arial",
+          maxWidth: "800px",
+          margin: "0 auto",
+          lineHeight: "1.6",
+          backgroundColor: "#f9f9f9",
+          borderRadius: "12px",
+          boxShadow: "0 0 12px rgba(0,0,0,0.1)"
+        }}
+      >
+        <h1 style={{ color: "#2c3e50" }}>🏡 HarborView Strata Management</h1>
+        <p>Welcome to the community portal for residents of HarborView Apartments.</p>
 
-        <h2>📢 Latest Announcement</h2>
-        <p>The next strata committee meeting will be held on <strong>April 15th at 6:00 PM</strong> in the lobby.</p>
+        <h2 style={{ color: "#2980b9", marginTop: "2rem" }}>📢 Latest Announcement</h2>
+        <p><strong>📅 April 15, 6:00 PM</strong> – Strata committee meeting in the lobby. All residents welcome.</p>
 
-        <h2>📄 Documents</h2>
+        <h2 style={{ color: "#2980b9", marginTop: "2rem" }}>📄 Documents</h2>
         <ul>
-          <li><a href="/documents/strata-rules.pdf" target="_blank">Strata Rules PDF</a></li>
-          <li><a href="/documents/meeting-minutes.pdf" target="_blank">Meeting Minutes</a></li>
+          <li><a href="/documents/strata-rules.pdf" target="_blank">📘 Strata Rules PDF</a></li>
+          <li><a href="/documents/meeting-minutes.pdf" target="_blank">📝 Meeting Minutes</a></li>
         </ul>
 
-        <h2>📬 Contact</h2>
-        <p>Contact us at: <strong>strata.manager@harborview.com</strong></p>
+        <h2 style={{ color: "#2980b9", marginTop: "2rem" }}>📬 Contact</h2>
+        <p>Questions? Email us at <a href="mailto:strata.manager@harborview.com">strata.manager@harborview.com</a></p>
       </main>
     </>
   );
