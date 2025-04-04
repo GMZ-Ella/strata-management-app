@@ -47,6 +47,19 @@ export default function Home() {
           <li><a href="/documents/meeting-minutes.pdf" target="_blank">📝 Meeting Minutes</a></li>
         </ul>
 
+        <img
+          src="/images/map.png"
+          alt="HarborView Location Map"
+          style={{
+            width: "100%",
+            maxWidth: "600px",
+            display: "block",
+            margin: "2rem auto",
+            border: "1px solid #ccc",
+            borderRadius: "8px"
+          }}
+        />
+        
         <h2 style={{ color: "#2980b9", marginTop: "2rem" }}>📬 Contact</h2>
         <p>Questions? Email us at <a href="mailto:strata.manager@harborview.com">strata.manager@harborview.com</a></p>
       </main>
