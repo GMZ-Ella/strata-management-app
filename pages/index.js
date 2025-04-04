@@ -59,9 +59,14 @@ export default function Home() {
             borderRadius: "8px"
           }}
         />
-        
+
         <h2 style={{ color: "#2980b9", marginTop: "2rem" }}>📬 Contact</h2>
-        <p>Questions? Email us at <a href="mailto:strata.manager@harborview.com">strata.manager@harborview.com</a></p>
+        <p>
+          Questions? Email us at{" "}
+          <a href={`mailto:${process.env.NEXT_PUBLIC_CONTACT_EMAIL}`}>
+            {process.env.NEXT_PUBLIC_CONTACT_EMAIL}
+          </a>
+        </p>
       </main>
     </>
   );
