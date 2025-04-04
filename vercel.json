@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "regions": ["syd1"],
+    "buildCommand": "npm run build",
+    "rewrites": [
+      {
+        "source": "/about",
+        "destination": "/pages/info.html"
+      }
+    ],
+    "crons": [
+      {
+        "path": "/api/daily-announcement",
+        "schedule": "0 8 * * *"
+      }
+    ]
+  }
